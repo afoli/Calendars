@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="calenders">
+        <attr name="textColorGregorianTitle" format="color" />
+        <attr name="fontGregorianTitle" format="string" />
+        <attr name="sizeGregorianTitle" format="integer" />
+
+        <attr name="nextDaysColorGregorianItem" format="color" />
+        <attr name="previewDaysColorGregorianItem" format="color" />
+        <attr name="otherMonthDaysColorGregorianItem" format="color" />
+        <attr name="fontGregorianItem" format="string" />
+        <attr name="sizeGregorianItem" format="integer" />
+        <attr name="backgroundDrawableGregorianItem" format="integer" />
+        <attr name="backgroundSelectedDrawableGregorianItem" format="integer" />
+        <attr name="backgroundColorGregorianItem" format="color" />
+        <attr name="backgroundSelectedColorGregorianItem" format="color" />
+        <attr name="textSelectedColorGregorianItem" format="color" />
+        <attr name="textSelectedSizeGregorianItem" format="integer" />
+
+        <attr name="textColorJalaliTitle" format="color" />
+        <attr name="fontJalaliTitle" format="string" />
+        <attr name="sizeJalaliTitle" format="integer" />
+
+        <attr name="nextDaysColorJalaliItem" format="color" />
+        <attr name="previewDaysColorJalaliItem" format="color" />
+        <attr name="otherMonthDaysColorJalaliItem" format="color" />
+        <attr name="fontJalaliItem" format="string" />
+        <attr name="sizeJalaliItem" format="integer" />
+        <attr name="backgroundDrawableJalaliItem" format="integer" />
+        <attr name="backgroundSelectedDrawableJalaliItem" format="integer" />
+        <attr name="backgroundColorJalaliItem" format="color" />
+        <attr name="backgroundSelectedColorJalaliItem" format="color" />
+        <attr name="textSelectedColorJalaliItem" format="color" />
+        <attr name="textSelectedSizeJalaliItem" format="integer" />
+
+        <attr name="previewNextButtonTextColor" format="color" />
+        <attr name="previewNextButtonBackgroundColor" format="color" />
+        <!--resource for selector or background-->
+        <attr name="previewNextButtonBackgroundDrawable" format="integer" />
+        <attr name="previewNextButtonFont" format="string" />
+        <attr name="previewNextButtonSize" format="integer" />
+        <attr name="previewNextButtonWidth" format="integer" />
+        <attr name="previewNextButtonHeight" format="integer" />
+        <attr name="previewNextButtonText" format="string" />
+
+        <attr name="JalaliButtonTextColor" format="color" />
+        <attr name="JalaliButtonBackgroundColor" format="color" />
+        <!--resource for selector or background-->
+        <attr name="JalaliButtonBackgroundDrawable" format="integer" />
+        <attr name="JalaliButtonFont" format="string" />
+        <attr name="JalaliButtonSize" format="integer" />
+        <attr name="JalaliButtonWidth" format="integer" />
+        <attr name="JalaliButtonHeight" format="integer" />
+        <attr name="JalaliButtonText" format="string" />
+
+        <attr name="GregorianButtonTextColor" format="color" />
+        <attr name="GregorianButtonBackgroundColor" format="color" />
+        <!--resource for selector or background-->
+        <attr name="GregorianButtonBackgroundDrawable" format="integer" />
+        <attr name="GregorianButtonFont" format="string" />
+        <attr name="GregorianButtonSize" format="integer" />
+        <attr name="GregorianButtonWidth" format="integer" />
+        <attr name="GregorianButtonHeight" format="integer" />
+        <attr name="GregorianButtonText" format="string" />
+
+        <attr name="enableButtonJalali">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="enableButtonGregorian">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="typeOfPreviewNextButton">
+            <enum name="image" value="0" />
+            <enum name="iconFont" value="1" />
+        </attr>
+
+        <attr name="typeOfCalender">
+            <enum name="gregorian" value="0" />
+            <enum name="jalali" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+
+        <attr name="holidaysColors" format="color" />
+        <attr name="pageBackgroundColor" format="color" />
+        <attr name="pageBackgroundDrawable" format="integer" />
+        <attr name="calenderBackgroundColor" format="color" />
+        <attr name="calenderBackgroundDrawable" format="integer" />
+        <attr name="itemDecorationSize" format="integer" />
+
+        <attr name="horizontalLine">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="verticalLine">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        <attr name="headerJalaliBackgroundColor" format="color" />
+        <attr name="headerJalaliTextColor" format="color" />
+        <attr name="headerJalaliTextSize" format="integer" />
+        <attr name="headerJalaliBackgroundDrawable" format="integer" />
+
+        <attr name="headerGregorianBackgroundColor" format="color" />
+        <attr name="headerGregorianTextColor" format="color" />
+        <attr name="headerGregorianTextSize" format="integer" />
+        <attr name="headerGregorianBackgroundDrawable" format="integer" />
+
+        <attr name="typeOfSelect">
+            <enum name="oneSelect" value="0" />
+            <enum name="multiSelect" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>
